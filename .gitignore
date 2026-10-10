@@ -5,6 +5,7 @@ Thumbs.db
 *.bak*
 *.js
 !server.js
+!assets/**/*.js
 !_next/**/*.js
 !_external/**/*.js
 mobile_*.png

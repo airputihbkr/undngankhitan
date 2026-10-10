@@ -64,3 +64,6 @@ take_update_screenshots.js
 update_countdown_script.js
 update_diag_fetch.js
 *.bak*
+analyze_next_images.js
+check_stylesheets.js
+replace_next_image_urls.js

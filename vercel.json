@@ -11,6 +11,9 @@
     },
     {
       "src": "/_external/(.*)",
+      "headers": {
+        "cache-control": "public, max-age=86400"
+      },
       "dest": "/_external/$1"
     },
     {
@@ -22,12 +25,7 @@
       "dest": "/music.mp3"
     },
     {
-      "src": "/wajah.jpeg",
-      "dest": "/wajah.jpeg"
-    },
-    {
-      "src": "/IMG_3586.JPG.jpeg",
-      "dest": "/IMG_3586.JPG.jpeg"
+      "handle": "filesystem"
     },
     {
       "src": "/(.*)",

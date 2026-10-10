@@ -11,6 +11,19 @@
       ]
     },
     {
+      "source": "/_external/custom/music.mp3",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "audio/mpeg"
+        },
+        {
+          "key": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ]
+    },
+    {
       "source": "/assets/music.mp3",
       "headers": [
         {

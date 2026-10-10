@@ -1015,34 +1015,7 @@
   })();
 </script>
 
-<script>
-window.addEventListener('DOMContentLoaded', () => {
-  const sec = document.getElementById('40f16def-6212-43fe-980e-3994a4dc4d75');
-  if (!sec) {
-    console.error('Section 40f16def not found!');
-    return;
-  }
-  const report = {
-    secRect: sec.getBoundingClientRect(),
-    children: []
-  };
-  for (const child of sec.children) {
-    const r = child.getBoundingClientRect();
-    const style = window.getComputedStyle(child);
-    report.children.push({
-      id: child.id,
-      text: child.innerText.trim(),
-      rect: { top: r.top, left: r.left, width: r.width, height: r.height },
-      display: style.display,
-      visibility: style.visibility,
-      opacity: style.opacity,
-      transform: style.transform,
-      color: style.color
-    });
-  }
-  document.title = 'REPORT::' + JSON.stringify(report);
-});
-</script>
+
 
 
 </head><body class="__variable_471bd2 __variable_8b8423 no-scrollbar">
